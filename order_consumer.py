@@ -7,7 +7,9 @@ from kafka_utils import create_topic
 import time
 
 
+
 BROKER = 'localhost:9092,localhost:9093,localhost:9095'
+
 
 
 async def process_orders():
